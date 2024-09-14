@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .naguwek {
+    padding: 55px;
+    text-align: center;
+    background: #0011ff;
+    color: white;
+  }
+
+  .pasek {
+    display: flex;
+    background-color: #2e2e2e;
+  }
+
+  .pasek a {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+  }
+  
+  .pasek a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bok {
+    flex: 25%;
+    background-color: #c5c5c5;
+    padding: 20px;
+  }
+  
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .fimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .stopka {
+    padding: 15px;
+    text-align: center;
+    background: #424242;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .row, .pasek {   
+      flex-direction: column;
+    }
+  }
