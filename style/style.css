@@ -6,6 +6,9 @@
 body{
     background-color: black;
 }
+h1{
+    text-color: white;
+}
 nav {
     display: flex;
     flex-direction: row;
