@@ -6,9 +6,6 @@
 body{
     background-color: black;
 }
-h1{
-    color: white;
-}
 nav {
     display: flex;
     flex-direction: row;
@@ -118,6 +115,7 @@ main {
 main > h1 {
     text-align: center;
     margin: 50px;
+    color: white;
 }
 
 .garnitury {
